@@ -1,0 +1,21 @@
+.menu {
+	display: none;
+	text-align: right;
+	margin-top:1em; 
+	margin-bottom:1em;
+}
+.menu a {
+	text-decoration: none;
+	padding: 1em;
+	margin-top:1em; 
+	margin-bottom:1em;
+}
+
+
+@media screen and (max-width: 800px){
+	.menu {
+	
+	display: block;
+	
+}
+}
