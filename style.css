@@ -3,3 +3,11 @@
 		border:1px solid;
 		height: 150px;
 }
+@media screen and (max-width: 300px) {
+	.changeColor {
+		display: block;
+		background-color: blue;
+	}
+}
+
+
