@@ -1,0 +1,27 @@
+
+.changeColor{
+		border:1px solid;
+		height: 150px;
+}
+@media screen and (max-width: 300px) {
+	.changeColor {
+		display: block;
+		background-color: blue;
+	}
+}
+
+@media screen and (min-width: 301px)
+and (max-width: 600px) {
+	.changeColor {
+		display: block;
+		background-color: red;
+	}
+}
+
+
+@media screen and (min-width: 601px){
+	.changeColor{
+		display: block;
+		background-color:green;
+	}
+}
